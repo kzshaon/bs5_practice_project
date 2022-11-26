@@ -7,6 +7,7 @@ $('#hero-slider').owlCarousel({
     dots: false,
     items: 1,
     smartSpeed: 1000,
+    navText: ['PREV', 'NEXT'],
     responsive:{
         0:{
            

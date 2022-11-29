@@ -228,3 +228,79 @@ section {
   padding: 30px;
   margin-left: 50px;
 }
+
+/* THIS IS TEAM SECTION  */
+
+.team-member {
+  text-align: center;
+}
+.team-member .img-wrapper {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.team-member .overlay {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 77, 41, 0.65);
+  z-index: 2;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+.team-member .social-link {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+.team-member:hover .overlay {
+  opacity: 1;
+  top: 0;
+}
+.team-member:hover .social-link {
+  opacity: 1;
+  top: 50%;
+}
+.team-member h5 {
+  margin-top: 20px;
+}
+
+/* REVIEWS SECTION  */
+
+#reviews {
+  background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)),
+    url("../img/bg_banner1.jpg");
+}
+.review {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.review img {
+  width: 85px !important;
+  border-radius: 50px;
+  margin: auto;
+}
+.review h4 {
+  margin-top: 18px;
+}
+.review h4,
+.review p {
+  color: #fff;
+}
+.review small {
+  color: #ff4d29;
+}
+.review p {
+  margin-top: 20px;
+  font-size: 21px;
+}
+.owl-dot .active span {
+  background-color: #ff4d29 !important;
+}

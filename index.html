@@ -86,7 +86,13 @@
               <a class="nav-link" aria-current="page" href="#blog">Blog</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-brand ms-lg-3">Contact Us</a>
+          <a
+            href="#"
+            class="btn btn-brand ms-lg-3"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            >Contact Us</a
+          >
         </div>
       </div>
     </nav>
@@ -443,6 +449,182 @@
         </div>
       </div>
     </section>
+    <!-- THIS IS BLOG SECTION  -->
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro text-center">
+            <h6>Blog</h6>
+            <h1>Blog Posts</h1>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="blog-post">
+              <a class="blog-btn" href="#">Web Design</a>
+              <img src="img/project5.jpg" alt="" />
+              <small>12,Dec,2025</small>
+              <h4>Web Design trends in 2022</h4>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blog-post">
+              <a class="blog-btn" href="#">Web Design</a>
+              <img src="img/project4.jpg" alt="" />
+              <small>12,Dec,2025</small>
+              <h4>Web Design trends in 2022</h4>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blog-post">
+              <a class="blog-btn" href="#">Web Design</a>
+              <img src="img/project2.jpg" alt="" />
+              <small>12,Dec,2025</small>
+              <h4>Web Design trends in 2022</h4>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- This is footer  -->
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <a class="navbar-brand" href="#">Prixima<span>.</span></a>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+              <div class="social-link">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>Copyright@2020. All rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <div class="row">
+                <div
+                  class="col-lg-4 bg-cover"
+                  style="background-image: url(img/c2.jpg); min-height: 300px"
+                ></div>
+                <div class="col-lg-8">
+                  <form action="" class="row p-lg-5 gy-3">
+                    <div class="col-12">
+                      <h1>Get In Touch</h1>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Ea totam sint repudiandae.
+                      </p>
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >First name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="first name"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Last name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="last name"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="4"
+                        class="form-control"
+                        placeholder="write your message"
+                      ></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn btn-brand">
+                        Send Massege
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
